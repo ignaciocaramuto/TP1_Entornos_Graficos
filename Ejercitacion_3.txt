@@ -45,4 +45,14 @@
 
 3.f) Ambas tablas tienen la misma estructura, la unica diferencia es el espaciado entre celdas (la primera esta espaciada por defecto y en la segunda se le asigna 0 a los atributos de padding y spacing)
 
-3.h)
+3.h) El primer y tercer formulario utilizan fieldset que permite organizar en grupos los campos de un formulario mientras que el segundo formulario utiliza labels. Otra diferencia esta en los metodos HTTP
+     que se utilizan y  la accion que realizan en cada formulario(POST/GET;action.php, mailto, etc)
+
+3.i) En el primer caso tenemos un elemento que muestra un boton que contiene una imagen con las dimensiones dadas en los atributos y un texto. todo esto esta dentro de un label.
+     En el segundo elemento  tenemos un label con un texto y un boton que, a diferencia del anterior elemento, solo muestra un texto.
+
+
+3.j) Son dos opciones las cuales aparecen con una seleccion de tipo radio. La diferencia esta en el atributo name, al ser diferentes en el segundo caso permite seleccionar ambas lo cual es incorrecto si estuvieramos
+hablando de una sola lista del tipo radio.
+
+3.k) En ambos casos se muestra un menu con dos grupos de opciones. La diferencia radica en que en el segundo caso podemos seleccionar multiples opciones de ese menu debido al atributo multiple
