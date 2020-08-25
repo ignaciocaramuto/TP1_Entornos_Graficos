@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <a title="UTN" href="https://www.frro.utn.edu.ar/"><img src="https://lh3.googleusercontent.com/proxy/bva6wgLSJQz6bKWB2y_HioiZIFtXXTHs8SiVK9C949xogrvueRQvntEMdHkTvsMi0ynuBaiey2t7fWv25GFcS6BEHkBpGJn2XYDSLpdvhGfYLA_odygd6fid8Hp3wUOGuHdWRLTRFxgqstdvyBLX0g" height="80px" width="80px" alt="UTN" /></a>
+    <hr>
+    <h2>AÑO 2008</h2>
+    <table border="1">
+        <tr>
+          <th COLSPAN=2><b>Exámenes</b></th>
+        </tr>
+        <tr>
+          <td ROWSPAN=2>Fecha: 24/08</td>
+          <td>Aprobados</td>
+        </tr>
+        <tr>
+            <td>24/30</td>
+        </tr>
+    </table>
+    <ol>
+        <li><A href="#enunciado">Enunciado del examen</A></li>
+        <li><a href="https://www.frro.utn.edu.ar/">Resolución</a></li>
+    </ol>
+
+    Puede realizar consultas realizando el siguiente formulario:
+    <Form method = "post" action = "mailto: x@x.com">
+        <ul>
+           <label for="mail"><b>e-mail:</b></label>
+           <input type="email" id="mail" name="user_mail"><br>
+           <label for="msg"><b>consulta:</b></label>
+           <textarea id="msg" name="user_message"></textarea><br>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Borrar">
+        </ul>
+    </form>
+    <A name="enunciado"></A><h3>Enunciado del examen</h3>
+    <p>Ejercicio 1:</p> 
+    Un globo aerostático esférico, de 5 m de radio, está lleno de aire caliente. Calcular cuánto tiene que
+    valer la temperatura interior (supuesta uniforme) para que el globo pueda levantar 150 Kg. La
+    temperatura exterior es de 300 K y la presión 1 atm. Despreciar la tensión del globo.
+    <p>Ejercicio 2:</p>
+    Un objeto de masa M = 5 kg cuelga a una distancia x de una viga de masa m=3 kg
+    y longitud L = 2 m. El valor máximo de la componente vertical de la
+    fuerza que puede ejercer el pivote es 55 N. ¿Qué intervalo de la coordenada x hace
+    que se rompa el pivote? 
+    <p>Ejercicio 3:</p> 
+    Una barra de longitud L y masa M está sujeta al techo por uno de sus extremos, de manera que puede
+    pivotar sobre dicho extremo. Se coloca en posición horizontal (paralela al suelo) y se suelta. Determinar: a)
+    velocidad angular de la barra cuando alcanza la posición vertical y b) aceleración angular en el instante en
+    que se suelta.
+    <br>
+    <br>
+    <p><a href="contacto@email.com">Para más información dirigirse a contacto@email.com</a></p>
+</body>
+</html>
